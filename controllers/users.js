@@ -1,7 +1,4 @@
-let users = [
-    {id: 1, name: 'Cankun', email: 'chansetiawan42@gmail.com'},
-    {id: 2, name: 'Abyan', email: 'yanra42@gmail.com'},
-]
+const User = require('../models/User')
 
 module.exports = {
     index: (req, res) => {
